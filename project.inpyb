@@ -6,7 +6,7 @@
    "source": [
     "# IBM AI Capstone Project - SpaceX Falcon 9 Launch Prediction\n",
     "\n",
-    "This notebook performs data analysis and machine learning to predict the success of SpaceX Falcon 9 launches."
+    "This notebook performs data analysis and machine learning to predict whether the Falcon 9 launch will be successful."
    ]
   },
   {
@@ -18,8 +18,24 @@
     "import pandas as pd\n",
     "import numpy as np\n",
     "import matplotlib.pyplot as plt\n",
-    "\n",
     "print('Notebook Loaded Successfully ✅')"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## ✅ Step 1: Load Dataset"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "df = pd.read_csv('https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/labs/module_1/data/dataset_part_1.csv')\n",
+    "df.head()"
    ]
   }
  ],
